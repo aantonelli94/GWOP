@@ -1,5 +1,6 @@
 # GWOP
 
+(This repo requires emcee v3.0.2)
 
 The gravitational-waves overlapping signals (**GWOP**) project aims at providing metrics to assess the biases on the parameters of a source of interest in the presence of confusion noise from other resolved or unresolved sources.
 
