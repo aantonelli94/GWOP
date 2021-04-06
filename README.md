@@ -2,6 +2,9 @@
 
 **Description**
 
+
+The codes in this repository support the results in arXiv:2104.01897.
+
 The codes in this repo investigate the situation in which multiple gravitational-waves overlapping signals (**GWOP**) are present in a GW data stream (a situation of relevance to 2G/3G ground-based detectors, and the spaceborne LISA mission). The aim is to provide metrics to assess the biases on the parameters of a source of interest in the presence of confusion noise from other resolved or unresolved sources.
 
 The repo contains three main folders:
@@ -24,6 +27,18 @@ All the codes in this repo are intended to be self-contained. You will still nee
 - `pip install tqdm` (This library is for the progress bar during the MCMC sampling)
 
 **Please cite:**
+
+If you have found the codes in this repository useful, please cite the paper they were developed for,
+
+@article{Antonelli:2021vwg,
+    author = "Antonelli, Andrea and Burke, Ollie and Gair, Jonathan R.",
+    title = "{Noisy neighbours: inference biases from overlapping gravitational-wave signals}",
+    eprint = "2104.01897",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    month = "4",
+    year = "2021"
+}
 
 All the codes use emcee, for which the relevant citation is
 
